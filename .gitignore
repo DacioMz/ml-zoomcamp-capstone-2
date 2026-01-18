@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # modelos y datos pesados
 *.bin
 *.onnx
@@ -9,3 +10,22 @@
 .venv/
 __pycache__/
 
+=======
+# Python
+__pycache__/
+venv/
+.ipynb_checkpoints/
+
+# Data
+*.csv
+*.zip
+*.json
+*.jsonlines
+*.parquet
+
+# Models
+*.bin
+*.pkl
+*.onnx
+*.onnx.data
+>>>>>>> 6fd0b39e13b8879396f8b1207726843e063e69cd
