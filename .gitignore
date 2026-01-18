@@ -1,0 +1,11 @@
+# modelos y datos pesados
+*.bin
+*.onnx
+*.data
+*.zip
+*.jsonlines
+
+# entornos
+.venv/
+__pycache__/
+
