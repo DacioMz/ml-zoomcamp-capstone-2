@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+venv/
+.ipynb_checkpoints/
+
+# Data
+*.csv
+*.zip
+*.json
+*.jsonlines
+*.parquet
+
+# Models
+*.bin
+*.pkl
+*.onnx
+*.onnx.data
