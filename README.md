@@ -1,12 +1,22 @@
 # Adult Census Income Prediction
 
-### Project Overview
+## Problem Description
 
-The objective of this project is to build a **machine learning model** that predicts whether an individual earns **more than $50K per year**, based on demographic and socio-economic characteristics.
+Income estimation is a common challenge in socio-economic analysis, especially when direct income information is incomplete, unavailable, or expensive to collect.
 
-This project addresses a **supervised binary classification problem** using the **Adult Census Income dataset**, a widely used dataset in machine learning research and education.
+In this project, the problem is formulated as a **binary classification task**: predicting whether an individual earns **more than $50,000 per year**, based on demographic and employment-related attributes obtained from census data. The target variable `income` represents this threshold and is commonly used in income inequality studies.
 
-The work is developed as part of the **Machine Learning Zoomcamp (DataTalksClub)** and follows best practices for data analysis, modeling, and reproducibility.
+The model relies on features such as age, education level, occupation, marital status, working hours, and capital gains/losses. These variables are typically available in large-scale surveys, making the approach applicable in real-world analytical settings.
+
+### Intended Use
+
+A model like this can be used for:
+- exploratory socio-economic research
+- income distribution and inequality analysis
+- identifying key factors associated with higher income levels
+- educational purposes to demonstrate an end-to-end machine learning workflow
+
+The objective of this project is not to produce an exact income prediction, but to demonstrate how machine learning techniques can be applied to structured tabular data, from data preparation and modeling to evaluation and deployment.
 
 ---
 
