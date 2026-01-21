@@ -42,18 +42,6 @@ The objective of this project is not to produce an exact income prediction, but 
 Dataset link:  
 https://www.kaggle.com/datasets/uciml/adult-census-income
 
----
-
-## Problem Statement
-
-Given a set of demographic and employment-related attributes, the goal is to **predict whether a person earns more than $50K per year**.
-
-This type of problem is relevant for:
-- socio-economic analysis  
-- income inequality studies  
-- understanding key drivers of income  
-
----
 
 ## Machine Learning Approach
 
@@ -73,6 +61,16 @@ Special focus is placed on:
 - categorical feature encoding  
 - handling missing values  
 - model interpretability  
+
+
+## Containerization
+
+This project is containerized using Docker to ensure reproducibility and ease of setup.
+
+### Build the Docker image
+
+```bash
+docker build -t adult-income-prediction .
 
 ---
 
